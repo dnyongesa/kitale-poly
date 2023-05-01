@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost/cat1/" method="post">
+		<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="name"><br><br>
+        <label for="sname">Second Name:</label>
+		<input type="text" id="sname" name="name"><br><br>
+        <label for="lname">last Name:</label>
+		<input type="text" id="lname" name="name"><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+		<label for="gender">Gender:</label>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br><br>
+		<label for="course">Course:</label>
+		<select id="Department" name="course">
+            <option value="AgricultureDepartment">Agriculture Department</option>
+            <option value="BusinessDepartment">Business Department</option>
+            <option value="BuildingandCivilEngineering">Building and Civil Engineering</option>
+            <option value="ExaminationDepartment">Examination Department</option>
+            <option value="ElectricalDepartment">Electrical Department</option>
+            <option value="InformationTechnologyDepartment">Information Technology Department</option>
+            <option value="LiberalStudiesDepartment">Liberal Studies Department</option>
+            <option value="IndustrialLiaisonDepartment">Industrial Liaison Department</option>
+            <option value="Maths&AppliedScienceDepartment">Maths & Applied Science Department</option>
+		</select><br><br>
+		<label for="file">Passport Image:</label>
+		<input type="file" id="file" name="file"><br><br>
+		<input type="hidden" id="id" name="id" value="123">
+        <input type="hidden" id="status" name="maritual"/>
+        <p>Disabilities</p>
+        <input type="checkbox" id="visual" value="visua problem"/>
+        <lable for="visual">VISUAL IMPARED</lable><br>
+        <input type = "checkbox" id="Amputation" name="Amputation"/>
+        <lable for="Amputation">Amputation</lable><br>
+        <input type="checkbox" id="Spinabifida " name="Spinabifida "/>
+        <lable for="Spinabifida ">Spina bifida </lable><br>
+        <input type="checkbox" id="Musculoskeletalinjuries" name="Musculoskeletalinjuries"/>
+        <lable for="Musculoskeletalinjuries">Musculoskeletal injuries</lable><br>
+		<a href="localhost/cat1/"><input type="submit" value="Submit"></a>
+		<input type="reset" value="Reset"><br>
+        
+	</form>
+    
+</body>
+</html>
